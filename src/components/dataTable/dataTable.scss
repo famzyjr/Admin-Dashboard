@@ -4,7 +4,13 @@
 
 .dataGrid{
     background: white; 
-    
+    img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 }
 
 .MuiDataGrid-toolbarContainer{
@@ -12,16 +18,10 @@
       
 }
 
-img{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .action{
     display: flex;
-    // gap: 15px;
+    gap: 15px;
 }
 
 img{
